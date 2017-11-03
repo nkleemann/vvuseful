@@ -38,7 +38,7 @@ def handle_pkt(p):
 			probe_resp.setdefault(p.addr2, set()).add(p.info)
 
 		if len(probe_resp[p.addr2]) == mx_proberp:
-			print("[*] SSID Spoofing from: %s " % (pkt.addr2))
+			print("[*] SSID Spoofing from: %s " % (p.addr2))
 
 			for ssid in probe_resp[p.addr2]:
 				print(ssid)
