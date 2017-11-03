@@ -16,10 +16,10 @@ Download every image from a 4chan thread.
 
 Get the canteen menu (HTWK) for today on your terminal.
 
-## wlanpolice.py
-
-Very Simple Intrusion Detection. Senses MITM + DeAuth attacks.
-
 ## officeclerk.py
 
 Merge all pdfs in given folder into one.
+
+## wlanpolice.py
+
+Very Simple Intrusion Detection. Senses MITM + DeAuth attacks.
